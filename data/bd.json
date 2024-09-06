@@ -1,0 +1,99 @@
+{
+    "clients": [
+      {
+        "id": 1,
+        "nom": "Ba",
+        "prenom": "Khalifa",
+        "telephone": "77",
+        "adresse": "Ouakam",
+        "sexe": "M",
+        "fonction": "client",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzDR9UU9sQWlWTDm1JbBvjy2lCQbNM9z29Dw&usqp=CAU",
+        "dette": [
+          {
+            "id": 1,
+            "montant": 10000,
+            "date": "2022-01-01",
+            "verse": 10000
+          },
+          {
+            "id": 2,
+            "montant": 15000,
+            "date": "2023-01-01",
+            "verse": 7000
+          },
+          {
+            "id": 3,
+            "montant": 50000,
+            "date": "2024-01-01",
+            "verse": 45000
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nom": "Fall",
+        "prenom": "Awa ",
+        "telephone": "78",
+        "adresse": "Dakar",
+        "sexe": "F",
+        "fonction": "client",
+        "photo": "https://thumbs.dreamstime.com/b/portrait-noir-et-blanc-de-profil-d-une-fille-r%C3%A9fl%C3%A9chie-triste-enfant-en-bas-%C3%A2ge-avec-des-perles-138520452.jpg",
+        "dette": [
+          {
+            "id": 1,
+            "montant": 20000,
+            "date": "2022-05-01",
+            "verse": 10000
+          },
+          {
+            "id": 2,
+            "montant": 30000,
+            "date": "2023-03-15",
+            "verse": 15000
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "nom": "Diatta",
+        "prenom": "Issa",
+        "telephone": "771234567",
+        "adresse": "Thiès",
+        "sexe": "M",
+        "fonction": "client",
+        "photo": "https://media.istockphoto.com/id/491022212/fr/photo/faible-cl%C3%A9-portrait-dhomme.jpg?s=612x612&w=0&k=20&c=2DfJmwX2Vr4boc1EtOJ5eyt3KsLGEllfxpH3u63xS7U=",
+        "dette": [
+          {
+            "id": 1,
+            "montant": 10000,
+            "date": "2022-01-01",
+            "verse": 5000
+          },
+          {
+            "id": 2,
+            "montant": 5000,
+            "date": "2023-07-21",
+            "verse": 3000
+          }
+        ]
+      }
+    
+    ],
+    "articles": [
+      {
+        "idA": 1,
+        "libelle": "Ordinateur portable",
+        "prixU": "120000",
+        "qtestock": "10",
+        "refA": "LAP001"
+      },
+      {
+        "idA": 2,
+        "libelle": "Smartphone",
+        "prixU": "80000",
+        "qtestock": "20",
+        "refA": "PHO002"
+      }
+    ]
+  }
